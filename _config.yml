@@ -1,0 +1,31 @@
+title: 우아도서관 - 전국 도서관 정보 검색
+description: >-
+  전국 공공도서관 운영시간, 휴관일, 열람실 실시간 좌석 현황을 한눈에.
+  문화체육관광부 전국도서관표준데이터 기반 신뢰할 수 있는 도서관 정보.
+url: "https://wooalib.wooahouse.com"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+author: WooaHouse
+
+ad_mode: dev
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - manual/
+  - "*.py"
+  - README.md
+  - .gitignore
+  - .env
+  - vendor/

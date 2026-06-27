@@ -1,0 +1,1303 @@
+[
+  {
+    "sido": "강원특별자치도",
+    "slug": "강원특별자치도",
+    "total": 105,
+    "sigungu": [
+      {
+        "name": "강릉시",
+        "slug": "강릉시",
+        "count": 11
+      },
+      {
+        "name": "고성군",
+        "slug": "고성군",
+        "count": 3
+      },
+      {
+        "name": "동해시",
+        "slug": "동해시",
+        "count": 7
+      },
+      {
+        "name": "삼척시",
+        "slug": "삼척시",
+        "count": 3
+      },
+      {
+        "name": "속초시",
+        "slug": "속초시",
+        "count": 4
+      },
+      {
+        "name": "양구군",
+        "slug": "양구군",
+        "count": 8
+      },
+      {
+        "name": "양양군",
+        "slug": "양양군",
+        "count": 5
+      },
+      {
+        "name": "영월군",
+        "slug": "영월군",
+        "count": 4
+      },
+      {
+        "name": "원주시",
+        "slug": "원주시",
+        "count": 6
+      },
+      {
+        "name": "인제군",
+        "slug": "인제군",
+        "count": 6
+      },
+      {
+        "name": "정선군",
+        "slug": "정선군",
+        "count": 3
+      },
+      {
+        "name": "철원군",
+        "slug": "철원군",
+        "count": 4
+      },
+      {
+        "name": "춘천시",
+        "slug": "춘천시",
+        "count": 10
+      },
+      {
+        "name": "태백시",
+        "slug": "태백시",
+        "count": 3
+      },
+      {
+        "name": "평창군",
+        "slug": "평창군",
+        "count": 8
+      },
+      {
+        "name": "홍천군",
+        "slug": "홍천군",
+        "count": 6
+      },
+      {
+        "name": "화천군",
+        "slug": "화천군",
+        "count": 3
+      },
+      {
+        "name": "횡성군",
+        "slug": "횡성군",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "sido": "경기도",
+    "slug": "경기도",
+    "total": 503,
+    "sigungu": [
+      {
+        "name": "가평군",
+        "slug": "가평군",
+        "count": 4
+      },
+      {
+        "name": "고양시",
+        "slug": "고양시",
+        "count": 25
+      },
+      {
+        "name": "과천시",
+        "slug": "과천시",
+        "count": 4
+      },
+      {
+        "name": "광명시",
+        "slug": "광명시",
+        "count": 6
+      },
+      {
+        "name": "광주시",
+        "slug": "광주시",
+        "count": 16
+      },
+      {
+        "name": "구리시",
+        "slug": "구리시",
+        "count": 8
+      },
+      {
+        "name": "군포시",
+        "slug": "군포시",
+        "count": 42
+      },
+      {
+        "name": "김포시",
+        "slug": "김포시",
+        "count": 7
+      },
+      {
+        "name": "남양주시",
+        "slug": "남양주시",
+        "count": 13
+      },
+      {
+        "name": "동두천시",
+        "slug": "동두천시",
+        "count": 6
+      },
+      {
+        "name": "부천시",
+        "slug": "부천시",
+        "count": 35
+      },
+      {
+        "name": "성남시",
+        "slug": "성남시",
+        "count": 41
+      },
+      {
+        "name": "수원시",
+        "slug": "수원시",
+        "count": 25
+      },
+      {
+        "name": "시흥시",
+        "slug": "시흥시",
+        "count": 31
+      },
+      {
+        "name": "안산시",
+        "slug": "안산시",
+        "count": 24
+      },
+      {
+        "name": "안성시",
+        "slug": "안성시",
+        "count": 17
+      },
+      {
+        "name": "안양시",
+        "slug": "안양시",
+        "count": 11
+      },
+      {
+        "name": "양주시",
+        "slug": "양주시",
+        "count": 10
+      },
+      {
+        "name": "양평군",
+        "slug": "양평군",
+        "count": 12
+      },
+      {
+        "name": "여주시",
+        "slug": "여주시",
+        "count": 9
+      },
+      {
+        "name": "연천군",
+        "slug": "연천군",
+        "count": 2
+      },
+      {
+        "name": "오산시",
+        "slug": "오산시",
+        "count": 7
+      },
+      {
+        "name": "용인시",
+        "slug": "용인시",
+        "count": 27
+      },
+      {
+        "name": "의왕시",
+        "slug": "의왕시",
+        "count": 13
+      },
+      {
+        "name": "의정부시",
+        "slug": "의정부시",
+        "count": 19
+      },
+      {
+        "name": "이천시",
+        "slug": "이천시",
+        "count": 5
+      },
+      {
+        "name": "파주시",
+        "slug": "파주시",
+        "count": 21
+      },
+      {
+        "name": "평택시",
+        "slug": "평택시",
+        "count": 14
+      },
+      {
+        "name": "포천시",
+        "slug": "포천시",
+        "count": 7
+      },
+      {
+        "name": "하남시",
+        "slug": "하남시",
+        "count": 9
+      },
+      {
+        "name": "화성시",
+        "slug": "화성시",
+        "count": 33
+      }
+    ]
+  },
+  {
+    "sido": "경상남도",
+    "slug": "경상남도",
+    "total": 320,
+    "sigungu": [
+      {
+        "name": "거제시",
+        "slug": "거제시",
+        "count": 31
+      },
+      {
+        "name": "거창군",
+        "slug": "거창군",
+        "count": 2
+      },
+      {
+        "name": "고성군",
+        "slug": "고성군",
+        "count": 3
+      },
+      {
+        "name": "김해시",
+        "slug": "김해시",
+        "count": 51
+      },
+      {
+        "name": "남해군",
+        "slug": "남해군",
+        "count": 2
+      },
+      {
+        "name": "밀양시",
+        "slug": "밀양시",
+        "count": 6
+      },
+      {
+        "name": "사천시",
+        "slug": "사천시",
+        "count": 4
+      },
+      {
+        "name": "산청군",
+        "slug": "산청군",
+        "count": 3
+      },
+      {
+        "name": "양산시",
+        "slug": "양산시",
+        "count": 9
+      },
+      {
+        "name": "의령군",
+        "slug": "의령군",
+        "count": 2
+      },
+      {
+        "name": "진주시",
+        "slug": "진주시",
+        "count": 74
+      },
+      {
+        "name": "창녕군",
+        "slug": "창녕군",
+        "count": 3
+      },
+      {
+        "name": "창원시",
+        "slug": "창원시",
+        "count": 79
+      },
+      {
+        "name": "창원시 마산합포구",
+        "slug": "창원시-마산합포구",
+        "count": 2
+      },
+      {
+        "name": "창원시 마산회원구",
+        "slug": "창원시-마산회원구",
+        "count": 1
+      },
+      {
+        "name": "창원시 성산구",
+        "slug": "창원시-성산구",
+        "count": 1
+      },
+      {
+        "name": "통영시",
+        "slug": "통영시",
+        "count": 5
+      },
+      {
+        "name": "하동군",
+        "slug": "하동군",
+        "count": 12
+      },
+      {
+        "name": "함안군",
+        "slug": "함안군",
+        "count": 2
+      },
+      {
+        "name": "함양군",
+        "slug": "함양군",
+        "count": 11
+      },
+      {
+        "name": "합천군",
+        "slug": "합천군",
+        "count": 17
+      }
+    ]
+  },
+  {
+    "sido": "경상북도",
+    "slug": "경상북도",
+    "total": 162,
+    "sigungu": [
+      {
+        "name": "경산시",
+        "slug": "경산시",
+        "count": 1
+      },
+      {
+        "name": "경주시",
+        "slug": "경주시",
+        "count": 7
+      },
+      {
+        "name": "고령군",
+        "slug": "고령군",
+        "count": 2
+      },
+      {
+        "name": "구미시",
+        "slug": "구미시",
+        "count": 11
+      },
+      {
+        "name": "김천시",
+        "slug": "김천시",
+        "count": 10
+      },
+      {
+        "name": "문경시",
+        "slug": "문경시",
+        "count": 15
+      },
+      {
+        "name": "봉화군",
+        "slug": "봉화군",
+        "count": 1
+      },
+      {
+        "name": "상주시",
+        "slug": "상주시",
+        "count": 9
+      },
+      {
+        "name": "성주군",
+        "slug": "성주군",
+        "count": 2
+      },
+      {
+        "name": "안동시",
+        "slug": "안동시",
+        "count": 7
+      },
+      {
+        "name": "영덕군",
+        "slug": "영덕군",
+        "count": 3
+      },
+      {
+        "name": "영양군",
+        "slug": "영양군",
+        "count": 4
+      },
+      {
+        "name": "영주시",
+        "slug": "영주시",
+        "count": 7
+      },
+      {
+        "name": "영천시",
+        "slug": "영천시",
+        "count": 4
+      },
+      {
+        "name": "예천군",
+        "slug": "예천군",
+        "count": 3
+      },
+      {
+        "name": "울릉군",
+        "slug": "울릉군",
+        "count": 1
+      },
+      {
+        "name": "울진군",
+        "slug": "울진군",
+        "count": 10
+      },
+      {
+        "name": "의성군",
+        "slug": "의성군",
+        "count": 2
+      },
+      {
+        "name": "청도군",
+        "slug": "청도군",
+        "count": 5
+      },
+      {
+        "name": "청송군",
+        "slug": "청송군",
+        "count": 2
+      },
+      {
+        "name": "칠곡군",
+        "slug": "칠곡군",
+        "count": 6
+      },
+      {
+        "name": "포항시",
+        "slug": "포항시",
+        "count": 49
+      },
+      {
+        "name": "하양읍",
+        "slug": "하양읍",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "sido": "광주광역시",
+    "slug": "광주광역시",
+    "total": 316,
+    "sigungu": [
+      {
+        "name": "광산구",
+        "slug": "광산구",
+        "count": 6
+      },
+      {
+        "name": "남구",
+        "slug": "남구",
+        "count": 76
+      },
+      {
+        "name": "동구",
+        "slug": "동구",
+        "count": 53
+      },
+      {
+        "name": "북구",
+        "slug": "북구",
+        "count": 98
+      },
+      {
+        "name": "서구",
+        "slug": "서구",
+        "count": 83
+      }
+    ]
+  },
+  {
+    "sido": "대구광역시",
+    "slug": "대구광역시",
+    "total": 243,
+    "sigungu": [
+      {
+        "name": "군위군",
+        "slug": "군위군",
+        "count": 4
+      },
+      {
+        "name": "남구",
+        "slug": "남구",
+        "count": 4
+      },
+      {
+        "name": "달서구",
+        "slug": "달서구",
+        "count": 53
+      },
+      {
+        "name": "달성군",
+        "slug": "달성군",
+        "count": 47
+      },
+      {
+        "name": "동구",
+        "slug": "동구",
+        "count": 17
+      },
+      {
+        "name": "북구",
+        "slug": "북구",
+        "count": 58
+      },
+      {
+        "name": "서구",
+        "slug": "서구",
+        "count": 23
+      },
+      {
+        "name": "수성구",
+        "slug": "수성구",
+        "count": 11
+      },
+      {
+        "name": "중구",
+        "slug": "중구",
+        "count": 26
+      }
+    ]
+  },
+  {
+    "sido": "대전광역시",
+    "slug": "대전광역시",
+    "total": 106,
+    "sigungu": [
+      {
+        "name": "대덕구",
+        "slug": "대덕구",
+        "count": 6
+      },
+      {
+        "name": "동구",
+        "slug": "동구",
+        "count": 14
+      },
+      {
+        "name": "서구",
+        "slug": "서구",
+        "count": 10
+      },
+      {
+        "name": "유성구",
+        "slug": "유성구",
+        "count": 25
+      },
+      {
+        "name": "중구",
+        "slug": "중구",
+        "count": 51
+      }
+    ]
+  },
+  {
+    "sido": "부산광역시",
+    "slug": "부산광역시",
+    "total": 220,
+    "sigungu": [
+      {
+        "name": "강서구",
+        "slug": "강서구",
+        "count": 33
+      },
+      {
+        "name": "금정구",
+        "slug": "금정구",
+        "count": 3
+      },
+      {
+        "name": "기장군",
+        "slug": "기장군",
+        "count": 7
+      },
+      {
+        "name": "남구",
+        "slug": "남구",
+        "count": 38
+      },
+      {
+        "name": "동구",
+        "slug": "동구",
+        "count": 3
+      },
+      {
+        "name": "동래구",
+        "slug": "동래구",
+        "count": 3
+      },
+      {
+        "name": "부산진구",
+        "slug": "부산진구",
+        "count": 19
+      },
+      {
+        "name": "북구",
+        "slug": "북구",
+        "count": 7
+      },
+      {
+        "name": "사상구",
+        "slug": "사상구",
+        "count": 19
+      },
+      {
+        "name": "사하구",
+        "slug": "사하구",
+        "count": 18
+      },
+      {
+        "name": "서구",
+        "slug": "서구",
+        "count": 22
+      },
+      {
+        "name": "수영구",
+        "slug": "수영구",
+        "count": 5
+      },
+      {
+        "name": "연제구",
+        "slug": "연제구",
+        "count": 9
+      },
+      {
+        "name": "영도구",
+        "slug": "영도구",
+        "count": 20
+      },
+      {
+        "name": "중구",
+        "slug": "중구",
+        "count": 5
+      },
+      {
+        "name": "해운대구",
+        "slug": "해운대구",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "sido": "서울특별시",
+    "slug": "서울특별시",
+    "total": 541,
+    "sigungu": [
+      {
+        "name": "강남구",
+        "slug": "강남구",
+        "count": 27
+      },
+      {
+        "name": "강동구",
+        "slug": "강동구",
+        "count": 6
+      },
+      {
+        "name": "강북구",
+        "slug": "강북구",
+        "count": 7
+      },
+      {
+        "name": "강서구",
+        "slug": "강서구",
+        "count": 36
+      },
+      {
+        "name": "관악구",
+        "slug": "관악구",
+        "count": 39
+      },
+      {
+        "name": "광진구",
+        "slug": "광진구",
+        "count": 34
+      },
+      {
+        "name": "구로구",
+        "slug": "구로구",
+        "count": 14
+      },
+      {
+        "name": "금천구",
+        "slug": "금천구",
+        "count": 27
+      },
+      {
+        "name": "노원구",
+        "slug": "노원구",
+        "count": 34
+      },
+      {
+        "name": "동작구",
+        "slug": "동작구",
+        "count": 11
+      },
+      {
+        "name": "마포구",
+        "slug": "마포구",
+        "count": 15
+      },
+      {
+        "name": "서대문구",
+        "slug": "서대문구",
+        "count": 15
+      },
+      {
+        "name": "서울특별시 도봉구",
+        "slug": "서울특별시-도봉구",
+        "count": 31
+      },
+      {
+        "name": "서초구",
+        "slug": "서초구",
+        "count": 10
+      },
+      {
+        "name": "성동구",
+        "slug": "성동구",
+        "count": 24
+      },
+      {
+        "name": "성북구",
+        "slug": "성북구",
+        "count": 17
+      },
+      {
+        "name": "송파구",
+        "slug": "송파구",
+        "count": 12
+      },
+      {
+        "name": "양천구",
+        "slug": "양천구",
+        "count": 23
+      },
+      {
+        "name": "영등포구",
+        "slug": "영등포구",
+        "count": 26
+      },
+      {
+        "name": "용산구",
+        "slug": "용산구",
+        "count": 16
+      },
+      {
+        "name": "은평구",
+        "slug": "은평구",
+        "count": 77
+      },
+      {
+        "name": "종로구",
+        "slug": "종로구",
+        "count": 15
+      },
+      {
+        "name": "중구",
+        "slug": "중구",
+        "count": 19
+      },
+      {
+        "name": "중랑구",
+        "slug": "중랑구",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "sido": "세종특별자치시",
+    "slug": "세종특별자치시",
+    "total": 24,
+    "sigungu": [
+      {
+        "name": "없음",
+        "slug": "없음",
+        "count": 24
+      }
+    ]
+  },
+  {
+    "sido": "울산광역시",
+    "slug": "울산광역시",
+    "total": 152,
+    "sigungu": [
+      {
+        "name": "남구",
+        "slug": "남구",
+        "count": 55
+      },
+      {
+        "name": "동구",
+        "slug": "동구",
+        "count": 27
+      },
+      {
+        "name": "북구",
+        "slug": "북구",
+        "count": 9
+      },
+      {
+        "name": "울주군",
+        "slug": "울주군",
+        "count": 14
+      },
+      {
+        "name": "중구",
+        "slug": "중구",
+        "count": 47
+      }
+    ]
+  },
+  {
+    "sido": "인천광역시",
+    "slug": "인천광역시",
+    "total": 295,
+    "sigungu": [
+      {
+        "name": "강화군",
+        "slug": "강화군",
+        "count": 5
+      },
+      {
+        "name": "계양구",
+        "slug": "계양구",
+        "count": 14
+      },
+      {
+        "name": "깅화군",
+        "slug": "깅화군",
+        "count": 1
+      },
+      {
+        "name": "남동구",
+        "slug": "남동구",
+        "count": 13
+      },
+      {
+        "name": "동구",
+        "slug": "동구",
+        "count": 8
+      },
+      {
+        "name": "미추홀구",
+        "slug": "미추홀구",
+        "count": 16
+      },
+      {
+        "name": "부평구",
+        "slug": "부평구",
+        "count": 58
+      },
+      {
+        "name": "서구",
+        "slug": "서구",
+        "count": 113
+      },
+      {
+        "name": "연수구",
+        "slug": "연수구",
+        "count": 28
+      },
+      {
+        "name": "옹진군",
+        "slug": "옹진군",
+        "count": 10
+      },
+      {
+        "name": "중구",
+        "slug": "중구",
+        "count": 29
+      }
+    ]
+  },
+  {
+    "sido": "전라남도",
+    "slug": "전라남도",
+    "total": 154,
+    "sigungu": [
+      {
+        "name": "강진군",
+        "slug": "강진군",
+        "count": 1
+      },
+      {
+        "name": "고흥군",
+        "slug": "고흥군",
+        "count": 1
+      },
+      {
+        "name": "곡성군",
+        "slug": "곡성군",
+        "count": 3
+      },
+      {
+        "name": "광양시",
+        "slug": "광양시",
+        "count": 9
+      },
+      {
+        "name": "구례군",
+        "slug": "구례군",
+        "count": 2
+      },
+      {
+        "name": "나주시",
+        "slug": "나주시",
+        "count": 4
+      },
+      {
+        "name": "담양군",
+        "slug": "담양군",
+        "count": 12
+      },
+      {
+        "name": "목포시",
+        "slug": "목포시",
+        "count": 24
+      },
+      {
+        "name": "무안군",
+        "slug": "무안군",
+        "count": 33
+      },
+      {
+        "name": "보성군",
+        "slug": "보성군",
+        "count": 3
+      },
+      {
+        "name": "순천시",
+        "slug": "순천시",
+        "count": 7
+      },
+      {
+        "name": "신안군",
+        "slug": "신안군",
+        "count": 4
+      },
+      {
+        "name": "여수시",
+        "slug": "여수시",
+        "count": 8
+      },
+      {
+        "name": "영광군",
+        "slug": "영광군",
+        "count": 2
+      },
+      {
+        "name": "영암군",
+        "slug": "영암군",
+        "count": 4
+      },
+      {
+        "name": "완도군",
+        "slug": "완도군",
+        "count": 3
+      },
+      {
+        "name": "장성군",
+        "slug": "장성군",
+        "count": 4
+      },
+      {
+        "name": "장흥군",
+        "slug": "장흥군",
+        "count": 2
+      },
+      {
+        "name": "진도군",
+        "slug": "진도군",
+        "count": 2
+      },
+      {
+        "name": "함평군",
+        "slug": "함평군",
+        "count": 10
+      },
+      {
+        "name": "해남군",
+        "slug": "해남군",
+        "count": 2
+      },
+      {
+        "name": "화순군",
+        "slug": "화순군",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "sido": "전라북도",
+    "slug": "전라북도",
+    "total": 1,
+    "sigungu": [
+      {
+        "name": "순창군",
+        "slug": "순창군",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "sido": "전북특별자치도",
+    "slug": "전북특별자치도",
+    "total": 168,
+    "sigungu": [
+      {
+        "name": "고창군",
+        "slug": "고창군",
+        "count": 10
+      },
+      {
+        "name": "군산시",
+        "slug": "군산시",
+        "count": 24
+      },
+      {
+        "name": "김제시",
+        "slug": "김제시",
+        "count": 2
+      },
+      {
+        "name": "남원시",
+        "slug": "남원시",
+        "count": 23
+      },
+      {
+        "name": "무주군",
+        "slug": "무주군",
+        "count": 7
+      },
+      {
+        "name": "부안군",
+        "slug": "부안군",
+        "count": 8
+      },
+      {
+        "name": "순창군",
+        "slug": "순창군",
+        "count": 1
+      },
+      {
+        "name": "완주군",
+        "slug": "완주군",
+        "count": 13
+      },
+      {
+        "name": "익산시",
+        "slug": "익산시",
+        "count": 9
+      },
+      {
+        "name": "임실군",
+        "slug": "임실군",
+        "count": 9
+      },
+      {
+        "name": "장수군",
+        "slug": "장수군",
+        "count": 2
+      },
+      {
+        "name": "전주시",
+        "slug": "전주시",
+        "count": 41
+      },
+      {
+        "name": "정읍시",
+        "slug": "정읍시",
+        "count": 17
+      },
+      {
+        "name": "진안군",
+        "slug": "진안군",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "sido": "제주특별자치도",
+    "slug": "제주특별자치도",
+    "total": 56,
+    "sigungu": [
+      {
+        "name": "서귀포시",
+        "slug": "서귀포시",
+        "count": 40
+      },
+      {
+        "name": "제주시",
+        "slug": "제주시",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "sido": "충청남도",
+    "slug": "충청남도",
+    "total": 100,
+    "sigungu": [
+      {
+        "name": "계룡시",
+        "slug": "계룡시",
+        "count": 2
+      },
+      {
+        "name": "공주시",
+        "slug": "공주시",
+        "count": 4
+      },
+      {
+        "name": "금산군",
+        "slug": "금산군",
+        "count": 9
+      },
+      {
+        "name": "논산시",
+        "slug": "논산시",
+        "count": 7
+      },
+      {
+        "name": "당진시",
+        "slug": "당진시",
+        "count": 13
+      },
+      {
+        "name": "보령시",
+        "slug": "보령시",
+        "count": 11
+      },
+      {
+        "name": "부여군",
+        "slug": "부여군",
+        "count": 1
+      },
+      {
+        "name": "서산시",
+        "slug": "서산시",
+        "count": 9
+      },
+      {
+        "name": "서천군",
+        "slug": "서천군",
+        "count": 2
+      },
+      {
+        "name": "아산시",
+        "slug": "아산시",
+        "count": 7
+      },
+      {
+        "name": "예산군",
+        "slug": "예산군",
+        "count": 2
+      },
+      {
+        "name": "천안시",
+        "slug": "천안시",
+        "count": 21
+      },
+      {
+        "name": "청양군",
+        "slug": "청양군",
+        "count": 2
+      },
+      {
+        "name": "태안군",
+        "slug": "태안군",
+        "count": 3
+      },
+      {
+        "name": "홍성군",
+        "slug": "홍성군",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "sido": "충청북도",
+    "slug": "충청북도",
+    "total": 88,
+    "sigungu": [
+      {
+        "name": "괴산군",
+        "slug": "괴산군",
+        "count": 3
+      },
+      {
+        "name": "단양군",
+        "slug": "단양군",
+        "count": 3
+      },
+      {
+        "name": "보은군",
+        "slug": "보은군",
+        "count": 2
+      },
+      {
+        "name": "영동군",
+        "slug": "영동군",
+        "count": 39
+      },
+      {
+        "name": "옥천군",
+        "slug": "옥천군",
+        "count": 2
+      },
+      {
+        "name": "음성군",
+        "slug": "음성군",
+        "count": 6
+      },
+      {
+        "name": "제천시",
+        "slug": "제천시",
+        "count": 8
+      },
+      {
+        "name": "증평군",
+        "slug": "증평군",
+        "count": 2
+      },
+      {
+        "name": "진천군",
+        "slug": "진천군",
+        "count": 4
+      },
+      {
+        "name": "청주시",
+        "slug": "청주시",
+        "count": 15
+      },
+      {
+        "name": "청주시 청원구",
+        "slug": "청주시-청원구",
+        "count": 1
+      },
+      {
+        "name": "충주시",
+        "slug": "충주시",
+        "count": 3
+      }
+    ]
+  }
+]

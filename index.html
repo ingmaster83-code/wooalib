@@ -1,0 +1,76 @@
+---
+layout: default
+title: 전국 도서관 운영시간·열람실 좌석 검색
+description: 전국 공공도서관 운영시간, 휴관일, 실시간 열람실 좌석 현황을 한눈에. 3,500개 도서관 정보 제공.
+---
+
+<!-- 히어로 검색 -->
+<section class="hero">
+  <h1>📚 전국 도서관 정보</h1>
+  <p>운영시간 · 휴관일 · 실시간 열람실 좌석 현황</p>
+  <div style="position:relative">
+    <div class="search-box">
+      <input id="search-input" type="text" placeholder="도서관명 또는 지역 검색..." autocomplete="off" aria-label="도서관 검색">
+      <button onclick="doSearch(document.getElementById('search-input').value)">🔍 검색</button>
+    </div>
+    <div id="search-results" class="search-results"></div>
+  </div>
+</section>
+
+<div class="main-content">
+
+  <!-- 광고 -->
+  <div class="ad-wrap">
+    {% include ad-slot.html slot="7080296704" %}
+  </div>
+
+  <!-- 내 주변 도서관 -->
+  <section class="nearby-geo-section">
+    <h2 class="section-title">📍 내 주변 도서관</h2>
+    <div id="geo-status" class="geo-status">
+      <button id="geo-btn" class="geo-btn" onclick="findNearby()">
+        📍 현재 위치로 찾기
+      </button>
+    </div>
+    <div id="geo-results" class="geo-results" style="display:none"></div>
+  </section>
+
+  <!-- 지역별 찾기 -->
+  <section>
+    <h2 class="section-title">🗺️ 지역별 찾기</h2>
+    <div class="region-grid">
+      {% for region in site.data.regions %}
+      <a href="/region/{{ region.sido }}/" class="region-btn">
+        <span class="rb-name">{{ region.sido | replace: '특별자치도', '' | replace: '특별자치시', '' | replace: '광역시', '' | replace: '특별시', '' }}</span>
+        <span class="rb-count">{{ region.total }}개</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- 도서관 유형별 -->
+  <section>
+    <h2 class="section-title">🏛️ 도서관 유형별</h2>
+    <div class="type-grid">
+      <a href="/region/" class="type-btn">📚 공공도서관</a>
+      <a href="/region/" class="type-btn">📖 작은도서관</a>
+      <a href="/region/" class="type-btn">👶 어린이도서관</a>
+      <a href="/region/" class="type-btn">🔬 전문도서관</a>
+    </div>
+  </section>
+
+  <!-- 이용 안내 -->
+  <section style="margin-top:40px; background:var(--white); border-radius:var(--radius); padding:28px; box-shadow:var(--shadow);">
+    <h2 class="section-title">ℹ️ 이용 안내</h2>
+    <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; font-size:.9rem; color:var(--text-muted);">
+      <li>📌 도서관 정보는 문화체육관광부 전국도서관표준데이터 기반으로 제공됩니다.</li>
+      <li>🔄 실시간 열람실 좌석 현황은 공공데이터포털 API를 통해 제공됩니다. (일부 도서관 미지원)</li>
+      <li>⚠️ 운영시간은 실제와 다를 수 있으니 방문 전 해당 도서관에 확인하세요.</li>
+    </ul>
+  </section>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/nearby.js' | relative_url }}"></script>

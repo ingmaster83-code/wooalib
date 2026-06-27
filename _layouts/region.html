@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<div class="region-page">
+
+  <nav class="breadcrumb">
+    <a href="/">홈</a>
+    <span>›</span>
+    {% if page.sigungu %}
+    <a href="/region/{{ page.sido | uri_escape }}/">{{ page.sido }}</a>
+    <span>›</span>
+    <span>{{ page.sigungu }}</span>
+    {% else %}
+    <span>{{ page.sido }}</span>
+    {% endif %}
+  </nav>
+
+  <div class="region-header">
+    <h1>
+      {% if page.sigungu %}
+      {{ page.sido }} {{ page.sigungu }} 도서관
+      {% else %}
+      {{ page.sido }} 도서관
+      {% endif %}
+    </h1>
+    <p class="region-count">총 <strong>{{ page.library_count }}</strong>개 도서관</p>
+  </div>
+
+  {% unless page.sigungu %}
+  <!-- 구/군 별 바로가기 (시도 페이지에만) -->
+  <div class="sigungu-grid">
+    {% for sg in page.sigungu_list %}
+    <a href="/region/{{ page.sido | uri_escape }}/{{ sg.name | uri_escape }}/" class="sigungu-card">
+      <span class="sg-name">{{ sg.name }}</span>
+      <span class="sg-count">{{ sg.count }}개</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% endunless %}
+
+  <!-- 광고 -->
+  <div class="ad-wrap">
+    {% include ad-slot.html slot="7080296704" %}
+  </div>
+
+  <!-- 도서관 목록 -->
+  <div class="lib-list">
+    {% for lib in page.libraries %}
+    <a href="/library/{{ lib.slug }}/" class="lib-card">
+      <div class="lib-card-header">
+        <span class="lib-card-name">{{ lib.name }}</span>
+        <span class="tag tag-type">{{ lib.type }}</span>
+      </div>
+      {% if lib.address != "" %}
+      <p class="lib-card-addr">📍 {{ lib.address }}</p>
+      {% endif %}
+      <div class="lib-card-hours">
+        {% if lib.hours_weekday != "" %}
+        <span>평일 {{ lib.hours_weekday }}</span>
+        {% endif %}
+        {% if lib.closed_days != "" %}
+        <span class="closed">휴관: {{ lib.closed_days }}</span>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+</div>

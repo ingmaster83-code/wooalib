@@ -1,0 +1,168 @@
+﻿---
+layout: default
+---
+
+<div class="library-page">
+
+  <!-- 브레드크럼 -->
+  <nav class="breadcrumb">
+    <a href="/">홈</a>
+    <span>›</span>
+    <a href="/region/{{ page.sido | uri_escape }}/">{{ page.sido }}</a>
+    <span>›</span>
+    <a href="/region/{{ page.sido | uri_escape }}/{{ page.sigungu | uri_escape }}/">{{ page.sigungu }}</a>
+    <span>›</span>
+    <span>{{ page.lib_name }}</span>
+  </nav>
+
+  <!-- 운영중 뱃지 (JS가 채움) -->
+  <div id="open-status"></div>
+
+  <!-- 도서관 헤더 -->
+  <div class="lib-header">
+    <div class="lib-header-icon">🏛️</div>
+    <div class="lib-header-info">
+      <h1 class="lib-name">{{ page.lib_name }}</h1>
+      <div class="lib-tags">
+        {% if page.type != "" %}
+        <span class="tag tag-type">{{ page.type }}</span>
+        {% endif %}
+        <span class="tag tag-region">{{ page.sido }} {{ page.sigungu }}</span>
+      </div>
+      {% if page.address != "" %}
+      <p class="lib-address">📍 {{ page.address }}</p>
+      {% endif %}
+      <div class="lib-contact">
+        {% if page.tel != "" %}
+        <a href="tel:{{ page.tel }}" class="contact-tel">📞 {{ page.tel }}</a>
+        {% endif %}
+        {% if page.website != "" %}
+        <a href="{{ page.website }}" target="_blank" rel="noopener" class="contact-web">🌐 홈페이지</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- 운영시간 카드 -->
+  <div class="info-grid">
+    <div class="info-card">
+      <h2>⏰ 운영시간</h2>
+      <table class="hours-table">
+        <tr>
+          <th>평일</th>
+          <td>{% if page.hours_weekday != "" %}{{ page.hours_weekday }}{% else %}-{% endif %}</td>
+        </tr>
+        <tr>
+          <th>토요일</th>
+          <td>{% if page.hours_saturday != "" %}{{ page.hours_saturday }}{% else %}-{% endif %}</td>
+        </tr>
+        <tr>
+          <th>공휴일</th>
+          <td>{% if page.hours_holiday != "" %}{{ page.hours_holiday }}{% else %}-{% endif %}</td>
+        </tr>
+        {% if page.closed_days != "" %}
+        <tr>
+          <th>휴관일</th>
+          <td>{{ page.closed_days }}</td>
+        </tr>
+        {% endif %}
+      </table>
+    </div>
+
+    <div class="info-card">
+      <h2>📖 대출 정보</h2>
+      <table class="hours-table">
+        {% if page.books != "" %}
+        <tr>
+          <th>소장 도서</th>
+          <td>{{ page.books | number_with_delimiter }}권</td>
+        </tr>
+        {% endif %}
+        {% if page.loan_limit != "" %}
+        <tr>
+          <th>대출 가능</th>
+          <td>{{ page.loan_limit }}권</td>
+        </tr>
+        {% endif %}
+        {% if page.loan_days != "" %}
+        <tr>
+          <th>대출 기간</th>
+          <td>{{ page.loan_days }}일</td>
+        </tr>
+        {% endif %}
+        {% if page.seats != "" %}
+        <tr>
+          <th>열람 좌석</th>
+          <td>{{ page.seats }}석</td>
+        </tr>
+        {% endif %}
+      </table>
+    </div>
+  </div>
+
+  <!-- 실시간 열람실 좌석 -->
+  <div class="realtime-section">
+    <h2>🪑 실시간 열람실 좌석 현황</h2>
+    <div id="seat-status" class="seat-loading">
+      <div class="loading-spinner"></div>
+      <p>좌석 정보를 불러오는 중...</p>
+    </div>
+    <button id="seat-refresh" class="refresh-btn" onclick="loadSeatInfo()">🔄 새로고침</button>
+  </div>
+
+  <!-- 광고 -->
+  <div class="ad-wrap">
+    {% include ad-slot.html slot="7080296704" %}
+  </div>
+
+  <!-- 같은 지역 도서관 (JS가 채움) -->
+  <div class="nearby-section">
+    <h2>📚 {{ page.sigungu }} 다른 도서관</h2>
+    <div id="nearby-list" class="nearby-list">
+      <p class="loading-text">불러오는 중...</p>
+    </div>
+  </div>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Library",
+    "name": "{{ page.lib_name }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ page.address }}",
+      "addressRegion": "{{ page.sido }}",
+      "addressLocality": "{{ page.sigungu }}",
+      "addressCountry": "KR"
+    }
+    {% if page.tel != "" %},
+    "telephone": "{{ page.tel }}"
+    {% endif %}
+    {% if page.website != "" %},
+    "url": "{{ page.website }}"
+    {% endif %}
+    {% if page.lat != "" and page.lng != "" %},
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ page.lat }},
+      "longitude": {{ page.lng }}
+    }
+    {% endif %}
+  }
+  </script>
+
+</div>
+
+<script>
+const LIBRARY_NAME         = {{ page.lib_name | jsonify }};
+const LIBRARY_SIDO         = {{ page.sido | jsonify }};
+const LIBRARY_SIGUNGU      = {{ page.sigungu | jsonify }};
+const LIBRARY_STDG_CD      = {{ page.stdg_cd | jsonify }};
+const LIBRARY_HOURS_WEEKDAY  = {{ page.hours_weekday | jsonify }};
+const LIBRARY_HOURS_SATURDAY = {{ page.hours_saturday | jsonify }};
+const LIBRARY_HOURS_HOLIDAY  = {{ page.hours_holiday | jsonify }};
+const LIBRARY_CLOSED_DAYS    = {{ page.closed_days | jsonify }};
+const API_KEY              = "9490b1d34e92aa9e25b32a4cff1438fc7b9c71e5d332413916a391e867f61e86";
+</script>
+<script src="{{ '/assets/js/library.js' | relative_url }}"></script>

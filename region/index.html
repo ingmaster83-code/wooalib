@@ -1,0 +1,28 @@
+---
+layout: default
+title: 지역별 도서관 찾기
+description: 시도별 전국 공공도서관 목록. 운영시간, 휴관일, 열람실 좌석 정보를 지역별로 확인하세요.
+---
+
+<div class="region-index">
+  <nav class="breadcrumb">
+    <a href="/">홈</a>
+    <span>›</span>
+    <span>지역별 찾기</span>
+  </nav>
+
+  <h1>🗺️ 지역별 도서관 찾기</h1>
+
+  <div class="region-grid" style="margin-top:24px">
+    {% for region in site.data.regions %}
+    <a href="/region/{{ region.sido }}/" class="region-btn">
+      <span class="rb-name">{{ region.sido }}</span>
+      <span class="rb-count">{{ region.total }}개</span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="ad-wrap">
+    {% include ad-slot.html slot="7080296704" %}
+  </div>
+</div>
