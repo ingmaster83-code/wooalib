@@ -8,7 +8,7 @@ lang: ko
 timezone: Asia/Seoul
 author: WooaHouse
 
-ad_mode: dev
+ad_mode: prod
 
 markdown: kramdown
 kramdown:
