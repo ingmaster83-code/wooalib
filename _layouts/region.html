@@ -8,7 +8,7 @@ layout: default
     <a href="/">홈</a>
     <span>›</span>
     {% if page.sigungu %}
-    <a href="/region/{{ page.sido | uri_escape }}/">{{ page.sido }}</a>
+    <a href="/region/{{ page.sido_slug }}/">{{ page.sido }}</a>
     <span>›</span>
     <span>{{ page.sigungu }}</span>
     {% else %}
@@ -31,7 +31,7 @@ layout: default
   <!-- 구/군 별 바로가기 (시도 페이지에만) -->
   <div class="sigungu-grid">
     {% for sg in page.sigungu_list %}
-    <a href="/region/{{ page.sido | uri_escape }}/{{ sg.name | uri_escape }}/" class="sigungu-card">
+    <a href="/region/{{ page.sido_slug }}/{{ sg.slug }}/" class="sigungu-card">
       <span class="sg-name">{{ sg.name }}</span>
       <span class="sg-count">{{ sg.count }}개</span>
     </a>

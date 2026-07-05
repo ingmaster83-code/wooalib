@@ -40,7 +40,7 @@ description: 전국 공공도서관 운영시간, 휴관일, 실시간 열람실
     <h2 class="section-title">🗺️ 지역별 찾기</h2>
     <div class="region-grid">
       {% for region in site.data.regions %}
-      <a href="/region/{{ region.sido }}/" class="region-btn">
+      <a href="/region/{{ region.slug }}/" class="region-btn">
         <span class="rb-name">{{ region.sido | replace: '특별자치도', '' | replace: '특별자치시', '' | replace: '광역시', '' | replace: '특별시', '' }}</span>
         <span class="rb-count">{{ region.total }}개</span>
       </a>

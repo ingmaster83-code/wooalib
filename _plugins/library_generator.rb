@@ -31,15 +31,17 @@ module Jekyll
 
       # 시도 페이지
       regions.each do |region|
-        sido = region['sido']
+        sido      = region['sido']
+        sido_slug = region['slug'] || sido
         sido_libs = libraries.select { |l| l['sido'] == sido }
-        site.pages << RegionSidoPage.new(site, sido, region['sigungu'], sido_libs)
+        site.pages << RegionSidoPage.new(site, sido, sido_slug, region['sigungu'], sido_libs)
 
         # 시군구 페이지
         region['sigungu'].each do |sg_entry|
           sg_name = sg_entry['name']
+          sg_slug = sg_entry['slug'] || sg_name
           sg_libs = (sido_map[sido] || {})[sg_name] || []
-          site.pages << RegionSigunguPage.new(site, sido, sg_name, sg_libs)
+          site.pages << RegionSigunguPage.new(site, sido, sido_slug, sg_name, sg_slug, sg_libs)
         end
       end
 
@@ -92,16 +94,17 @@ module Jekyll
   end
 
   class RegionSidoPage < Page
-    def initialize(site, sido, sigungu_list, libraries)
+    def initialize(site, sido, sido_slug, sigungu_list, libraries)
       @site = site
       @base = site.source
-      @dir  = "region/#{sido}"
+      @dir  = "region/#{sido_slug}"
       @name = 'index.html'
 
       self.process(@name)
       self.read_yaml(File.join(@base, '_layouts'), 'region.html')
       self.data['layout']        = 'region'
       self.data['sido']          = sido
+      self.data['sido_slug']     = sido_slug
       self.data['sigungu']       = nil
       self.data['library_count'] = libraries.size
       self.data['sigungu_list']  = sigungu_list
@@ -112,17 +115,19 @@ module Jekyll
   end
 
   class RegionSigunguPage < Page
-    def initialize(site, sido, sigungu, libraries)
+    def initialize(site, sido, sido_slug, sigungu, sg_slug, libraries)
       @site = site
       @base = site.source
-      @dir  = "region/#{sido}/#{sigungu}"
+      @dir  = "region/#{sido_slug}/#{sg_slug}"
       @name = 'index.html'
 
       self.process(@name)
       self.read_yaml(File.join(@base, '_layouts'), 'region.html')
       self.data['layout']        = 'region'
       self.data['sido']          = sido
+      self.data['sido_slug']     = sido_slug
       self.data['sigungu']       = sigungu
+      self.data['sg_slug']       = sg_slug
       self.data['library_count'] = libraries.size
       self.data['libraries']     = libraries
       self.data['title']         = "#{sido} #{sigungu} 도서관 목록 | 우아도서관"
