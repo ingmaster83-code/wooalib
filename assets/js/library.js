@@ -51,7 +51,10 @@ async function loadSeatInfo() {
 
   try {
     const stdgCd = SEAT_CD_MAP[`${LIBRARY_SIDO} ${LIBRARY_SIGUNGU}`];
-    if (!stdgCd) throw new Error('stdgCd 없음');
+    if (!stdgCd) {
+      el.innerHTML = '<div class="seat-unavailable">ℹ️ 이 지역은 실시간 열람실 좌석 정보를 제공하지 않습니다.</div>';
+      return;
+    }
     const url = `${BASE_URL}/rlt_rdrm_info_v2?serviceKey=${encodeURIComponent(API_KEY)}&type=json&numOfRows=50&pageNo=1&stdgCd=${stdgCd}`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
