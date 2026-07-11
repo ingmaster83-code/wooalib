@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://wooalib.wooahouse.com/sitemap.xml
+
+#DaumWebMasterTool:4a2a3ff772761abc0c5105bbad701307765f36ff3f26d58b15119577f991b506:5OHFs/qHHlfCvAas17iLzw==
