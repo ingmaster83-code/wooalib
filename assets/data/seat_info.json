@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-08-23 22:32:38",
+ "updatedAt": "2026-08-23 22:59:42",
  "libraries": {
   "광진정보도서관": [
    {
     "rdrmNm": "제1열람실",
     "total": 229,
-    "used": 22,
-    "remain": 207
+    "used": 40,
+    "remain": 189
    },
    {
     "rdrmNm": "제2열람실",
     "total": 229,
-    "used": 22,
-    "remain": 207
+    "used": 40,
+    "remain": 189
    }
   ],
   "중랑구립면목정보도서관": [
@@ -79,16 +79,16 @@
    {
     "rdrmNm": "일반열람실",
     "total": 72,
-    "used": 6,
-    "remain": 66
+    "used": 11,
+    "remain": 61
    }
   ],
   "강서구립 곰달래도서관": [
    {
     "rdrmNm": "열람실",
     "total": 90,
-    "used": 4,
-    "remain": 86
+    "used": 12,
+    "remain": 78
    }
   ],
   "강서구립 등빛도서관": [
@@ -117,8 +117,8 @@
    {
     "rdrmNm": "집중학습실",
     "total": 62,
-    "used": 2,
-    "remain": 60
+    "used": 4,
+    "remain": 58
    },
    {
     "rdrmNm": "노트북전용석",
@@ -223,28 +223,28 @@
    {
     "rdrmNm": "열람실",
     "total": 70,
-    "used": 8,
-    "remain": 62
+    "used": 13,
+    "remain": 57
    },
    {
     "rdrmNm": "노트북실",
     "total": 12,
-    "used": 3,
-    "remain": 9
+    "used": 4,
+    "remain": 8
    }
   ],
   "정관도서관": [
    {
     "rdrmNm": "남자열람실",
     "total": 121,
-    "used": 112,
-    "remain": 9
+    "used": 111,
+    "remain": 10
    },
    {
     "rdrmNm": "여자열람실",
     "total": 111,
-    "used": 106,
-    "remain": 5
+    "used": 104,
+    "remain": 7
    }
   ],
   "수성구립용학도서관": [
@@ -369,26 +369,26 @@
    {
     "rdrmNm": "제1열람실(성인)",
     "total": 146,
-    "used": 137,
-    "remain": 9
+    "used": 130,
+    "remain": 16
    },
    {
     "rdrmNm": "제2열람실(노트북겸용)",
     "total": 120,
-    "used": 108,
-    "remain": 12
+    "used": 100,
+    "remain": 20
    },
    {
     "rdrmNm": "노트북코너(3층)",
     "total": 14,
-    "used": 11,
-    "remain": 3
+    "used": 10,
+    "remain": 4
    },
    {
     "rdrmNm": "노트북코너(4층)",
     "total": 90,
-    "used": 81,
-    "remain": 9
+    "used": 73,
+    "remain": 17
    }
   ],
   "무지개도서관": [
@@ -409,20 +409,20 @@
    {
     "rdrmNm": "노트북실",
     "total": 92,
-    "used": 6,
-    "remain": 86
+    "used": 8,
+    "remain": 84
    },
    {
     "rdrmNm": "제1열람실",
     "total": 97,
-    "used": 0,
-    "remain": 97
+    "used": 1,
+    "remain": 96
    },
    {
     "rdrmNm": "제2열람실",
     "total": 103,
-    "used": 7,
-    "remain": 96
+    "used": 9,
+    "remain": 94
    }
   ],
   "분당도서관": [
@@ -461,34 +461,34 @@
    {
     "rdrmNm": "제1열람실 (3층)",
     "total": 150,
-    "used": 143,
-    "remain": 7
+    "used": 138,
+    "remain": 12
    },
    {
     "rdrmNm": "제2열람실 (4층)",
     "total": 52,
-    "used": 52,
-    "remain": 0
+    "used": 51,
+    "remain": 1
    },
    {
     "rdrmNm": "노트북실 (4층)",
     "total": 51,
-    "used": 49,
-    "remain": 2
+    "used": 40,
+    "remain": 11
    }
   ],
   "수내도서관": [
    {
     "rdrmNm": "노트북실",
     "total": 73,
-    "used": 65,
-    "remain": 8
+    "used": 58,
+    "remain": 15
    },
    {
     "rdrmNm": "일반열람실",
     "total": 91,
-    "used": 81,
-    "remain": 10
+    "used": 73,
+    "remain": 18
    }
   ],
   "수정중앙": [
@@ -543,20 +543,20 @@
    {
     "rdrmNm": "3층1열람실(A구역)",
     "total": 169,
-    "used": 162,
-    "remain": 7
+    "used": 153,
+    "remain": 16
    },
    {
     "rdrmNm": "3층1열람실(B구역)",
     "total": 70,
-    "used": 63,
-    "remain": 7
+    "used": 55,
+    "remain": 15
    },
    {
     "rdrmNm": "2열람실4층(성인)",
     "total": 216,
-    "used": 212,
-    "remain": 4
+    "used": 211,
+    "remain": 5
    },
    {
     "rdrmNm": "3열람실4층",
@@ -629,46 +629,46 @@
    {
     "rdrmNm": "일반열람실",
     "total": 264,
-    "used": 195,
-    "remain": 69
+    "used": 188,
+    "remain": 76
    },
    {
     "rdrmNm": "e-러닝실",
     "total": 58,
-    "used": 52,
-    "remain": 6
+    "used": 48,
+    "remain": 10
    },
    {
     "rdrmNm": "e-러닝실(키보드작업가능)",
     "total": 24,
-    "used": 20,
-    "remain": 4
+    "used": 17,
+    "remain": 7
    }
   ],
   "판교도서관": [
    {
     "rdrmNm": "제1일반열람실",
     "total": 176,
-    "used": 171,
-    "remain": 5
+    "used": 167,
+    "remain": 9
    },
    {
     "rdrmNm": "노트북전용실",
     "total": 99,
-    "used": 85,
-    "remain": 14
+    "used": 81,
+    "remain": 18
    },
    {
     "rdrmNm": "제2일반열람실",
     "total": 140,
-    "used": 139,
-    "remain": 1
+    "used": 138,
+    "remain": 2
    },
    {
     "rdrmNm": "성인열람실",
     "total": 108,
-    "used": 102,
-    "remain": 6
+    "used": 95,
+    "remain": 13
    },
    {
     "rdrmNm": "디지털라운지(1층)",
@@ -707,8 +707,8 @@
    {
     "rdrmNm": "일반열람실",
     "total": 185,
-    "used": 180,
-    "remain": 5
+    "used": 178,
+    "remain": 7
    },
    {
     "rdrmNm": "노트북실",
@@ -721,8 +721,8 @@
    {
     "rdrmNm": "제1열람실",
     "total": 56,
-    "used": 51,
-    "remain": 5
+    "used": 49,
+    "remain": 7
    },
    {
     "rdrmNm": "제2열람실",
@@ -733,22 +733,22 @@
    {
     "rdrmNm": "노트북실",
     "total": 81,
-    "used": 57,
-    "remain": 24
+    "used": 53,
+    "remain": 28
    }
   ],
   "만안도서관": [
    {
     "rdrmNm": "일반열람실",
     "total": 152,
-    "used": 144,
-    "remain": 8
+    "used": 139,
+    "remain": 13
    },
    {
     "rdrmNm": "노트북실",
     "total": 48,
-    "used": 44,
-    "remain": 4
+    "used": 42,
+    "remain": 6
    },
    {
     "rdrmNm": "남학생실",
@@ -767,20 +767,20 @@
    {
     "rdrmNm": "여자열람실",
     "total": 74,
-    "used": 72,
-    "remain": 2
+    "used": 71,
+    "remain": 3
    },
    {
     "rdrmNm": "남자열람실",
     "total": 80,
-    "used": 70,
-    "remain": 10
+    "used": 65,
+    "remain": 15
    },
    {
     "rdrmNm": "노트북실",
     "total": 31,
-    "used": 29,
-    "remain": 2
+    "used": 27,
+    "remain": 4
    }
   ],
   "비산도서관": [
@@ -827,52 +827,52 @@
    {
     "rdrmNm": "일반열람실",
     "total": 140,
-    "used": 136,
-    "remain": 4
+    "used": 128,
+    "remain": 12
    },
    {
     "rdrmNm": "노트북실",
     "total": 88,
-    "used": 88,
-    "remain": 0
+    "used": 76,
+    "remain": 12
    },
    {
     "rdrmNm": "스마트열람실",
     "total": 140,
-    "used": 136,
-    "remain": 4
+    "used": 129,
+    "remain": 11
    }
   ],
   "호계도서관": [
    {
     "rdrmNm": "제1 성인열람실",
     "total": 136,
-    "used": 122,
-    "remain": 14
+    "used": 136,
+    "remain": 0
    },
    {
     "rdrmNm": "청소년열람실(여)",
     "total": 53,
-    "used": 52,
-    "remain": 1
+    "used": 53,
+    "remain": 0
    },
    {
     "rdrmNm": "청소년열람실(남)",
     "total": 42,
-    "used": 40,
-    "remain": 2
+    "used": 42,
+    "remain": 0
    },
    {
     "rdrmNm": "제2 성인열람실",
     "total": 36,
-    "used": 35,
-    "remain": 1
+    "used": 36,
+    "remain": 0
    },
    {
     "rdrmNm": "노트북열람실",
     "total": 53,
-    "used": 41,
-    "remain": 12
+    "used": 53,
+    "remain": 0
    }
   ],
   "북부도서관": [
@@ -913,14 +913,14 @@
    {
     "rdrmNm": "1열람실(일반)",
     "total": 54,
-    "used": 48,
-    "remain": 6
+    "used": 47,
+    "remain": 7
    },
    {
     "rdrmNm": "2열람실(남자)",
     "total": 54,
-    "used": 53,
-    "remain": 1
+    "used": 52,
+    "remain": 2
    },
    {
     "rdrmNm": "3열람실(여자)",
@@ -931,8 +931,8 @@
    {
     "rdrmNm": "노트북실",
     "total": 19,
-    "used": 18,
-    "remain": 1
+    "used": 17,
+    "remain": 2
    }
   ],
   "광명도서관": [
@@ -993,22 +993,22 @@
    {
     "rdrmNm": "일반열람실(칸막이)",
     "total": 252,
-    "used": 13,
-    "remain": 238
+    "used": 24,
+    "remain": 227
    },
    {
     "rdrmNm": "창의열람실",
     "total": 34,
-    "used": 10,
-    "remain": 18
+    "used": 11,
+    "remain": 17
    }
   ],
   "동두천시립도서관": [
    {
     "rdrmNm": "열람실",
     "total": 128,
-    "used": 128,
-    "remain": 0
+    "used": 126,
+    "remain": 2
    }
   ],
   "가좌도서관": [
@@ -1039,16 +1039,16 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 110,
-    "used": 10,
-    "remain": 100
+    "used": 18,
+    "remain": 92
    }
   ],
   "식사도서관": [
    {
     "rdrmNm": "3층 열람실",
     "total": 194,
-    "used": 12,
-    "remain": 182
+    "used": 14,
+    "remain": 180
    }
   ],
   "신원도서관": [
@@ -1063,8 +1063,8 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 134,
-    "used": 6,
-    "remain": 127
+    "used": 11,
+    "remain": 122
    }
   ],
   "행신도서관": [
@@ -1093,14 +1093,14 @@
    {
     "rdrmNm": "성인열람실",
     "total": 64,
-    "used": 0,
-    "remain": 64
+    "used": 1,
+    "remain": 63
    },
    {
     "rdrmNm": "남자열람실",
     "total": 75,
-    "used": 0,
-    "remain": 75
+    "used": 1,
+    "remain": 74
    },
    {
     "rdrmNm": "여자열람실",
@@ -1111,8 +1111,8 @@
    {
     "rdrmNm": "다용도열람실",
     "total": 38,
-    "used": 0,
-    "remain": 38
+    "used": 7,
+    "remain": 31
    }
   ],
   "별내도서관": [
@@ -1161,8 +1161,8 @@
    {
     "rdrmNm": "일반열람실",
     "total": 108,
-    "used": 13,
-    "remain": 95
+    "used": 0,
+    "remain": 108
    }
   ],
   "진접도서관": [
@@ -1313,8 +1313,8 @@
    {
     "rdrmNm": "일반열람실",
     "total": 148,
-    "used": 11,
-    "remain": 135
+    "used": 16,
+    "remain": 130
    },
    {
     "rdrmNm": "노트북실",
@@ -1355,14 +1355,14 @@
    {
     "rdrmNm": "열람실",
     "total": 180,
-    "used": 10,
-    "remain": 170
+    "used": 21,
+    "remain": 159
    },
    {
     "rdrmNm": "노트북실",
     "total": 30,
-    "used": 9,
-    "remain": 21
+    "used": 12,
+    "remain": 18
    }
   ],
   "서농도서관": [
@@ -1383,14 +1383,14 @@
    {
     "rdrmNm": "일반열람실",
     "total": 180,
-    "used": 8,
-    "remain": 172
+    "used": 14,
+    "remain": 166
    },
    {
     "rdrmNm": "노트북실",
     "total": 54,
-    "used": 11,
-    "remain": 43
+    "used": 16,
+    "remain": 38
    }
   ],
   "포곡도서관": [
@@ -1705,48 +1705,48 @@
    {
     "rdrmNm": "자유열람실(1실)",
     "total": 75,
-    "used": 70,
-    "remain": 5
+    "used": 73,
+    "remain": 2
    },
    {
     "rdrmNm": "자유열람실(2실)",
     "total": 40,
-    "used": 37,
-    "remain": 3
+    "used": 38,
+    "remain": 2
    }
   ],
   "삼천도서관": [
    {
     "rdrmNm": "열람공간",
     "total": 105,
-    "used": 102,
-    "remain": 3
+    "used": 98,
+    "remain": 7
    },
    {
     "rdrmNm": "책너머공간",
     "total": 30,
-    "used": 30,
-    "remain": 0
+    "used": 18,
+    "remain": 12
    }
   ],
   "효자도서관": [
    {
     "rdrmNm": "제1열람실",
     "total": 122,
-    "used": 107,
-    "remain": 15
+    "used": 116,
+    "remain": 6
    },
    {
     "rdrmNm": "제2열람실",
     "total": 101,
-    "used": 96,
-    "remain": 5
+    "used": 98,
+    "remain": 3
    },
    {
     "rdrmNm": "제3열람실",
     "total": 40,
-    "used": 36,
-    "remain": 4
+    "used": 37,
+    "remain": 3
    }
   ],
   "군산시립도서관": [
