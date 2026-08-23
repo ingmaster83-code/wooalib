@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-08-23 21:31:01",
+ "updatedAt": "2026-08-23 21:58:39",
  "libraries": {
   "광진정보도서관": [
    {
     "rdrmNm": "제1열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 12,
+    "remain": 217
    },
    {
     "rdrmNm": "제2열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 12,
+    "remain": 217
    }
   ],
   "중랑구립면목정보도서관": [
@@ -369,14 +369,14 @@
    {
     "rdrmNm": "제1열람실(성인)",
     "total": 146,
-    "used": 146,
-    "remain": 0
+    "used": 145,
+    "remain": 1
    },
    {
     "rdrmNm": "제2열람실(노트북겸용)",
     "total": 120,
-    "used": 120,
-    "remain": 0
+    "used": 119,
+    "remain": 1
    },
    {
     "rdrmNm": "노트북코너(3층)",
@@ -387,8 +387,8 @@
    {
     "rdrmNm": "노트북코너(4층)",
     "total": 90,
-    "used": 90,
-    "remain": 0
+    "used": 89,
+    "remain": 1
    }
   ],
   "무지개도서관": [
@@ -527,8 +527,8 @@
    {
     "rdrmNm": "열람실2(노트북실)",
     "total": 39,
-    "used": 39,
-    "remain": 0
+    "used": 38,
+    "remain": 1
    }
   ],
   "위례도서관": [
@@ -1039,16 +1039,16 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 110,
-    "used": 36,
-    "remain": 74
+    "used": 1,
+    "remain": 109
    }
   ],
   "식사도서관": [
    {
     "rdrmNm": "3층 열람실",
     "total": 194,
-    "used": 50,
-    "remain": 144
+    "used": 0,
+    "remain": 194
    }
   ],
   "신원도서관": [
@@ -1063,8 +1063,8 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 134,
-    "used": 0,
-    "remain": 133
+    "used": 1,
+    "remain": 132
    }
   ],
   "행신도서관": [
@@ -1297,8 +1297,8 @@
    {
     "rdrmNm": "일반열람실",
     "total": 84,
-    "used": 75,
-    "remain": 9
+    "used": 82,
+    "remain": 2
    }
   ],
   "산본도서관": [
