@@ -1,7 +1,5 @@
 /* library.js - 도서관 상세 페이지: 실시간 좌석 + 인근 도서관 */
 
-const BASE_URL = 'https://wooalib-proxy.ingmaster83.workers.dev/B551982/plr_v2';
-
 const SEAT_CD_MAP = {
   '서울특별시 광진구':         '1121500000',
   '서울특별시 중랑구':         '1126000000',
@@ -55,27 +53,23 @@ async function loadSeatInfo() {
       el.innerHTML = '<div class="seat-unavailable">ℹ️ 이 지역은 실시간 열람실 좌석 정보를 제공하지 않습니다.</div>';
       return;
     }
-    const url = `${BASE_URL}/rlt_rdrm_info_v2?serviceKey=${encodeURIComponent(API_KEY)}&type=json&numOfRows=50&pageNo=1&stdgCd=${stdgCd}`;
-    const res = await fetch(url);
+    // 국가도서관통계시스템 API를 GitHub Actions 서버에서 주기적으로 가져와 저장한 정적 데이터를 사용
+    // (Cloudflare Worker 경유 시 원인 불명의 오류가 발생해 이 방식으로 전환, 2026-08-23)
+    const res = await fetch('/assets/data/seat_info.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    const items = data?.body?.item;
-    if (!items) throw new Error('데이터 없음');
-
-    const list = Array.isArray(items) ? items : [items];
-    const matched = list;
-
-    if (!matched.length) {
+    const matched = data.libraries && data.libraries[LIBRARY_NAME];
+    if (!matched || !matched.length) {
       el.innerHTML = '<div class="seat-unavailable">⚠️ 이 도서관의 실시간 좌석 정보를 제공하지 않습니다.</div>';
       return;
     }
 
     let html = '<table class="seat-table"><thead><tr><th>열람실</th><th>총좌석</th><th>잔여</th><th>현황</th></tr></thead><tbody>';
     for (const item of matched) {
-      const total = parseInt(item.tseatCnt) || 0;
-      const remain = parseInt(item.rmndSeatCnt) || 0;
-      const used = total - remain;
+      const total = item.total || 0;
+      const remain = item.remain || 0;
+      const used = item.used || (total - remain);
       const pct = total > 0 ? Math.round((used / total) * 100) : 0;
       const cls = pct < 30 ? 'good' : pct < 70 ? 'ok' : 'full';
       html += `<tr>
@@ -86,6 +80,7 @@ async function loadSeatInfo() {
       </tr>`;
     }
     html += '</tbody></table>';
+    if (data.updatedAt) html += `<p class="seat-updated-note">${data.updatedAt} 기준 (국가도서관통계시스템)</p>`;
     el.innerHTML = html;
   } catch (e) {
     el.innerHTML = '<div class="seat-unavailable">⚠️ 실시간 좌석 정보를 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</div>';

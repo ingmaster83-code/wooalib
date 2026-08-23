@@ -1,0 +1,36 @@
+name: Seat Info Refresh
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # 15분마다
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch seat info
+        run: python scripts/fetch_seat_info.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/data/seat_info.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh library seat info $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No data changes"
+          fi
