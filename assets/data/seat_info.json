@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24 21:10:41",
+ "updatedAt": "2026-08-24 21:45:34",
  "libraries": {
   "광진정보도서관": [
    {
@@ -721,34 +721,34 @@
    {
     "rdrmNm": "제1열람실",
     "total": 56,
-    "used": 51,
-    "remain": 5
+    "used": 56,
+    "remain": 0
    },
    {
     "rdrmNm": "제2열람실",
     "total": 44,
-    "used": 20,
-    "remain": 24
+    "used": 21,
+    "remain": 23
    },
    {
     "rdrmNm": "노트북실",
     "total": 81,
-    "used": 60,
-    "remain": 21
+    "used": 64,
+    "remain": 17
    }
   ],
   "만안도서관": [
    {
     "rdrmNm": "일반열람실",
     "total": 152,
-    "used": 135,
-    "remain": 17
+    "used": 151,
+    "remain": 1
    },
    {
     "rdrmNm": "노트북실",
     "total": 48,
-    "used": 43,
-    "remain": 5
+    "used": 48,
+    "remain": 0
    },
    {
     "rdrmNm": "남학생실",
