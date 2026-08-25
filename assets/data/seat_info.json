@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25 20:47:49",
+ "updatedAt": "2026-08-25 21:32:25",
  "libraries": {
   "광진정보도서관": [
    {
@@ -741,20 +741,20 @@
    {
     "rdrmNm": "일반열람실",
     "total": 152,
-    "used": 138,
-    "remain": 14
+    "used": 151,
+    "remain": 1
    },
    {
     "rdrmNm": "노트북실",
     "total": 48,
-    "used": 40,
-    "remain": 8
+    "used": 48,
+    "remain": 0
    },
    {
     "rdrmNm": "남학생실",
     "total": 32,
-    "used": 31,
-    "remain": 1
+    "used": 32,
+    "remain": 0
    },
    {
     "rdrmNm": "여학생실",
