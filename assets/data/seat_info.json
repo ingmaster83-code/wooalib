@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-09-09 19:27:12",
+ "updatedAt": "2026-09-09 21:54:04",
  "libraries": {
   "광진정보도서관": [
    {
     "rdrmNm": "제1열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 11,
+    "remain": 218
    },
    {
     "rdrmNm": "제2열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 11,
+    "remain": 218
    }
   ],
   "중랑구립면목정보도서관": [
@@ -721,20 +721,20 @@
    {
     "rdrmNm": "제1열람실",
     "total": 56,
-    "used": 54,
-    "remain": 2
+    "used": 56,
+    "remain": 0
    },
    {
     "rdrmNm": "제2열람실",
     "total": 44,
-    "used": 20,
-    "remain": 24
+    "used": 21,
+    "remain": 23
    },
    {
     "rdrmNm": "노트북실",
     "total": 81,
-    "used": 58,
-    "remain": 23
+    "used": 64,
+    "remain": 17
    }
   ],
   "만안도서관": [
@@ -847,8 +847,8 @@
    {
     "rdrmNm": "제1 성인열람실",
     "total": 136,
-    "used": 126,
-    "remain": 10
+    "used": 136,
+    "remain": 0
    },
    {
     "rdrmNm": "청소년열람실(여)",
@@ -859,20 +859,20 @@
    {
     "rdrmNm": "청소년열람실(남)",
     "total": 42,
-    "used": 41,
-    "remain": 1
+    "used": 42,
+    "remain": 0
    },
    {
     "rdrmNm": "제2 성인열람실",
     "total": 36,
-    "used": 33,
-    "remain": 3
+    "used": 36,
+    "remain": 0
    },
    {
     "rdrmNm": "노트북열람실",
     "total": 53,
-    "used": 47,
-    "remain": 6
+    "used": 53,
+    "remain": 0
    }
   ],
   "북부도서관": [
