@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-09-10 19:44:07",
+ "updatedAt": "2026-09-10 21:58:10",
  "libraries": {
   "광진정보도서관": [
    {
     "rdrmNm": "제1열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 11,
+    "remain": 218
    },
    {
     "rdrmNm": "제2열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 11,
+    "remain": 218
    }
   ],
   "중랑구립면목정보도서관": [
@@ -447,8 +447,8 @@
    {
     "rdrmNm": "2열람실(노트북전용)",
     "total": 90,
-    "used": 90,
-    "remain": 0
+    "used": 89,
+    "remain": 1
    },
    {
     "rdrmNm": "3열람실(성인)",
@@ -515,14 +515,14 @@
    {
     "rdrmNm": "열람실1(성인전용)",
     "total": 32,
-    "used": 32,
-    "remain": 0
+    "used": 31,
+    "remain": 1
    },
    {
     "rdrmNm": "열람실1",
     "total": 72,
-    "used": 72,
-    "remain": 0
+    "used": 70,
+    "remain": 2
    },
    {
     "rdrmNm": "열람실2(노트북실)",
@@ -827,20 +827,20 @@
    {
     "rdrmNm": "일반열람실",
     "total": 140,
-    "used": 136,
-    "remain": 4
+    "used": 135,
+    "remain": 5
    },
    {
     "rdrmNm": "노트북실",
     "total": 88,
-    "used": 88,
-    "remain": 0
+    "used": 86,
+    "remain": 2
    },
    {
     "rdrmNm": "스마트열람실",
     "total": 140,
-    "used": 136,
-    "remain": 4
+    "used": 134,
+    "remain": 6
    }
   ],
   "호계도서관": [
@@ -1023,32 +1023,32 @@
    {
     "rdrmNm": "4층 열람실",
     "total": 177,
-    "used": 0,
-    "remain": 176
+    "used": 1,
+    "remain": 175
    }
   ],
   "덕이도서관": [
    {
     "rdrmNm": "3층 열람실",
     "total": 168,
-    "used": 0,
-    "remain": 168
+    "used": 3,
+    "remain": 165
    }
   ],
   "삼송도서관": [
    {
     "rdrmNm": "3층 열람실",
     "total": 110,
-    "used": 38,
-    "remain": 72
+    "used": 0,
+    "remain": 110
    }
   ],
   "식사도서관": [
    {
     "rdrmNm": "3층 열람실",
     "total": 194,
-    "used": 34,
-    "remain": 160
+    "used": 0,
+    "remain": 194
    }
   ],
   "신원도서관": [
@@ -1071,8 +1071,8 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 203,
-    "used": 0,
-    "remain": 203
+    "used": 2,
+    "remain": 201
    }
   ],
   "인창도서관": [
@@ -1277,8 +1277,8 @@
    {
     "rdrmNm": "열람실",
     "total": 192,
-    "used": 192,
-    "remain": 0
+    "used": 191,
+    "remain": 1
    },
    {
     "rdrmNm": "노트북실",
