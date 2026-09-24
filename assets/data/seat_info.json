@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24 20:41:06",
+ "updatedAt": "2026-09-24 23:31:09",
  "libraries": {
   "광진정보도서관": [
    {
@@ -237,14 +237,14 @@
    {
     "rdrmNm": "남자열람실",
     "total": 121,
-    "used": 120,
-    "remain": 1
+    "used": 114,
+    "remain": 7
    },
    {
     "rdrmNm": "여자열람실",
     "total": 111,
-    "used": 111,
-    "remain": 0
+    "used": 109,
+    "remain": 2
    }
   ],
   "수성구립용학도서관": [
@@ -1141,8 +1141,8 @@
    {
     "rdrmNm": "청소년열람실",
     "total": 100,
-    "used": 97,
-    "remain": 3
+    "used": 100,
+    "remain": 0
    },
    {
     "rdrmNm": "일반열람실",
@@ -1153,8 +1153,8 @@
    {
     "rdrmNm": "노트북실",
     "total": 54,
-    "used": 46,
-    "remain": 8
+    "used": 54,
+    "remain": 0
    }
   ],
   "오남도서관": [
@@ -1169,8 +1169,8 @@
    {
     "rdrmNm": "일반열람실",
     "total": 108,
-    "used": 7,
-    "remain": 101
+    "used": 0,
+    "remain": 108
    }
   ],
   "진접도서관": [
@@ -1741,20 +1741,20 @@
    {
     "rdrmNm": "제1열람실",
     "total": 122,
-    "used": 108,
-    "remain": 14
+    "used": 121,
+    "remain": 1
    },
    {
     "rdrmNm": "제2열람실",
     "total": 101,
-    "used": 92,
-    "remain": 9
+    "used": 101,
+    "remain": 0
    },
    {
     "rdrmNm": "제3열람실",
     "total": 40,
-    "used": 38,
-    "remain": 2
+    "used": 40,
+    "remain": 0
    }
   ],
   "군산시립도서관": [
