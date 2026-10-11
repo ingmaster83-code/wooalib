@@ -10,7 +10,12 @@ GitHub Actions 서버에서 직접 호출 → 정적 JSON으로 저장하는 방
 """
 import json, os, re, sys, time, urllib.request, urllib.parse
 
-KEY = '9490b1d34e92aa9e25b32a4cff1438fc7b9c71e5d332413916a391e867f61e86'
+def _need_key():
+    import os, sys
+    return os.environ.get("DATA_GO_KR_API_KEY") or sys.exit("환경변수 DATA_GO_KR_API_KEY 가 필요합니다(키를 코드에 넣지 마세요).")
+
+
+KEY = _need_key()
 BASE = 'https://apis.data.go.kr/B551982/plr_v2/rlt_rdrm_info_v2'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
