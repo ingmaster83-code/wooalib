@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19 14:56:22",
+ "updatedAt": "2026-10-19 20:29:47",
  "libraries": {
   "광진정보도서관": [
    {
@@ -57,8 +57,8 @@
    {
     "rdrmNm": "열람실",
     "total": 114,
-    "used": 32,
-    "remain": 79
+    "used": 0,
+    "remain": 111
    }
   ],
   "마포중앙도서관": [
@@ -237,14 +237,14 @@
    {
     "rdrmNm": "남자열람실",
     "total": 121,
-    "used": 98,
-    "remain": 23
+    "used": 120,
+    "remain": 1
    },
    {
     "rdrmNm": "여자열람실",
     "total": 111,
-    "used": 86,
-    "remain": 25
+    "used": 111,
+    "remain": 0
    }
   ],
   "수성구립용학도서관": [
@@ -1087,14 +1087,14 @@
    {
     "rdrmNm": "집중열람실(남)",
     "total": 60,
-    "used": 4,
-    "remain": 56
+    "used": 0,
+    "remain": 60
    },
    {
     "rdrmNm": "집중열람실(여)",
     "total": 48,
-    "used": 2,
-    "remain": 46
+    "used": 0,
+    "remain": 48
    }
   ],
   "토평도서관": [
@@ -1127,14 +1127,14 @@
    {
     "rdrmNm": "일반열람실",
     "total": 79,
-    "used": 7,
-    "remain": 72
+    "used": 0,
+    "remain": 79
    },
    {
     "rdrmNm": "청소년열람실",
     "total": 28,
-    "used": 2,
-    "remain": 26
+    "used": 0,
+    "remain": 28
    }
   ],
   "별빛도서관": [
@@ -1563,34 +1563,34 @@
    {
     "rdrmNm": "일반열람실",
     "total": 81,
-    "used": 5,
-    "remain": 76
+    "used": 0,
+    "remain": 81
    },
    {
     "rdrmNm": "미디어 열람실",
     "total": 65,
-    "used": 7,
-    "remain": 58
+    "used": 0,
+    "remain": 65
    },
    {
     "rdrmNm": "노트북열람실",
     "total": 25,
-    "used": 4,
-    "remain": 21
+    "used": 0,
+    "remain": 25
    }
   ],
   "태안도서관": [
    {
     "rdrmNm": "일반열람실1",
     "total": 85,
-    "used": 6,
-    "remain": 79
+    "used": 0,
+    "remain": 85
    },
    {
     "rdrmNm": "일반열람실2",
     "total": 54,
-    "used": 3,
-    "remain": 51
+    "used": 0,
+    "remain": 54
    },
    {
     "rdrmNm": "노트북실",
