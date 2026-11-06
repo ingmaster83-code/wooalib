@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-06 16:47:11",
+ "updatedAt": "2026-11-06 21:59:18",
  "libraries": {
   "광진정보도서관": [
    {
     "rdrmNm": "제1열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 6,
+    "remain": 223
    },
    {
     "rdrmNm": "제2열람실",
     "total": 229,
-    "used": 0,
-    "remain": 229
+    "used": 6,
+    "remain": 223
    }
   ],
   "중랑구립면목정보도서관": [
@@ -57,8 +57,8 @@
    {
     "rdrmNm": "열람실",
     "total": 114,
-    "used": 5,
-    "remain": 105
+    "used": 0,
+    "remain": 110
    }
   ],
   "마포중앙도서관": [
@@ -961,8 +961,8 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 152,
-    "used": 1,
-    "remain": 150
+    "used": 0,
+    "remain": 151
    },
    {
     "rdrmNm": "4층 열람실",
@@ -1047,8 +1047,8 @@
    {
     "rdrmNm": "3층 열람실",
     "total": 110,
-    "used": 29,
-    "remain": 81
+    "used": 0,
+    "remain": 110
    }
   ],
   "식사도서관": [
@@ -1285,8 +1285,8 @@
    {
     "rdrmNm": "열람실",
     "total": 194,
-    "used": 192,
-    "remain": 2
+    "used": 189,
+    "remain": 5
    },
    {
     "rdrmNm": "노트북실",
